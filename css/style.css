@@ -13,8 +13,8 @@
     height: 40px;
     background: var(--primary);
     margin: 100px auto;
-    -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
-    animation: sk-rotateplane 1.2s infinite ease-in-out;
+    -webkit-animation: sk-rotateplane 0.2s infinite ease-in-out;
+    animation: sk-rotateplane 0.2s infinite ease-in-out;
 }
 
 @-webkit-keyframes sk-rotateplane {
@@ -47,12 +47,12 @@
 #spinner {
     opacity: 0;
     visibility: hidden;
-    transition: opacity .5s ease-out, visibility 0s linear .5s;
+    transition: opacity .1s ease-out, visibility 0s linear .1s;
     z-index: 99999;
 }
 
 #spinner.show {
-    transition: opacity .5s ease-out, visibility 0s linear 0s;
+    transition: opacity .1s ease-out, visibility 0s linear 0s;
     visibility: visible;
     opacity: 1;
 }
@@ -82,7 +82,7 @@ h6,
 .btn {
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
-    transition: .5s;
+    transition: .1s;
 }
 
 .btn-primary,
@@ -133,7 +133,7 @@ h6,
     font-size: 18px;
     font-weight: 600;
     outline: none;
-    transition: .5s;
+    transition: .1s;
 }
 
 .sticky-top.navbar-dark .navbar-nav .nav-link {
@@ -196,7 +196,7 @@ h6,
         bottom: -1px;
         left: 50%;
         background: var(--primary);
-        transition: .5s;
+        transition: .1s;
     }
 
     .navbar-dark .navbar-nav .nav-link:hover::before,
@@ -315,7 +315,7 @@ h6,
     position: relative;
     height: 300px;
     padding: 0 30px;
-    transition: .5s;
+    transition: .1s;
 }
 
 .service-item .service-icon {
@@ -365,7 +365,7 @@ h6,
     height: 15px;
     background: #DDDDDD;
     border-radius: 2px;
-    transition: .5s;
+    transition: .1s;
 }
 
 .testimonial-carousel .owl-dot.active {
@@ -379,7 +379,7 @@ h6,
 }
 
 .testimonial-carousel .owl-item .testimonial-item {
-    transition: .5s;
+    transition: .1s;
 }
 
 .testimonial-carousel .owl-item.center .testimonial-item {
@@ -390,7 +390,7 @@ h6,
 
 /*** Team ***/
 .team-item {
-    transition: .5s;
+    transition: .1s;
 }
 
 .team-social {
@@ -402,7 +402,7 @@ h6,
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: .5s;
+    transition: .1s;
 }
 
 .team-social a.btn {
@@ -446,7 +446,7 @@ h6,
 
 .team-item .team-img img,
 .blog-item .blog-img img  {
-    transition: .5s;
+    transition: .1s;
 }
 
 .team-item:hover .team-img img,
@@ -478,7 +478,7 @@ h6,
 }
 
 .link-animated a {
-    transition: .5s;
+    transition: .1s;
 }
 
 .link-animated a:hover {
