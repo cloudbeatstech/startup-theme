@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #06A3DA;
+    --primary: #9b51e0;
     --secondary: #34AD54;
     --light: #EEF9FF;
     --dark: #091E3E;
@@ -492,4 +492,12 @@ h6,
 }
 .my-link:hover {
     opacity: 0.8;
+}
+
+
+/* ----my custom ones ----- */
+
+.glow {
+    /* color: white;  */
+    text-shadow: 0px 0px 4px white,0px 0px 4px white,0px 0px 4px white,0px 0px 1px #553300,0px 0px 1px #553300;
 }
